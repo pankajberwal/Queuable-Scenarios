@@ -1,0 +1,6 @@
+<template>
+    <lightning-card title="Account Transactions" icon-name="custom:custom63">
+        <lightning-input type="number" label="Account Number" value={accountNumber} onchange={handleAccountNumberChange}></lightning-input>
+        <lightning-button label="Fetch Transactions" onclick={handleFetchTransactions} variant="brand"></lightning-button>
+    </lightning-card>
+</template>
